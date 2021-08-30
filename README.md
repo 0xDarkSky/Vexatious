@@ -38,7 +38,9 @@ This is a V2 of Traffic-Confuser. The program uses Selenium module to open websi
 
 Basically it just opens random websites from the list, the websites are opened on Google-Chrome, you can choose whether to do it in the background or to display the tabs (your Internet Provider still sees those websites if you run this in the background).
 
-I also added a fake user agent (an Ipad), if you modify the script a little you can disable it.
+The times between sending each request are also random, from 10 to 100 seconds, (you can customize it to your choice).
+
+I also added a fake user agent (an iPad), if you modify the script a little you can disable it.
 
 # What's the purpose?
 
