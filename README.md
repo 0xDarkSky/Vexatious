@@ -24,6 +24,8 @@ This is a V2 of Traffic-Confuser. The program uses Selenium module to open websi
 
 **First of all** install GoogleChrome webdriver: https://sites.google.com/a/chromium.org/chromedriver/downloads and paste-in it's path to the script.
 
+![driver](https://user-images.githubusercontent.com/84932430/131385179-894426f7-8545-4d97-8290-3db2da688d63.png)
+
 `python3 Vexadious.py run` to run in headless mode (recommended), it will open websites on Google-Chrome in the background without actually opening the Browser.
 
 `python3 Vexadious.py show` if you want it to open Google-Chrome tabs and display it (not recommended, might be laggy after a number of tabs are opened)
