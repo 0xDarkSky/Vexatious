@@ -21,18 +21,18 @@ LOGO = """
 """
 
 try:
-	from selenium import webdriver
-	from selenium.webdriver.common.keys import Keys
-	from fake_useragent import UserAgent
-	from termcolor import colored
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+    from fake_useragent import UserAgent
+    from termcolor import colored
 except ImportError:
-	os.system("clear")
-	print("Some of the dependencies might not be installed!")
-	print("\nInstalling 3 dependencies...\n")
-	os.system("pip install fake_useragent")
-	os.system("pip install selenium")
-	os.system("pip install termcolor")
-	os.system("clear")
+    os.system("clear")
+    print("Some of the dependencies might not be installed!")
+    print("\nInstalling 3 dependencies...\n")
+    os.system("pip install fake_useragent")
+    os.system("pip install selenium")
+    os.system("pip install termcolor")
+    os.system("clear")
 
 user_agent = "Mozilla/5.0 (iPad; CPU OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B141 Safari/8536.25"
 
@@ -45,22 +45,22 @@ time.sleep(2)
 usr_input = sys.argv[1]
 
 def webopen():
-	usr_input = sys.argv[1]
-	if usr_input.lower() == "show":
-	   op = webdriver.ChromeOptions()
-	   op.add_argument("--window-size=1200,800")
-	   op.add_argument(f"user-agent={user_agent}")
-	if usr_input.lower() == "run":
-	   op = webdriver.ChromeOptions()
-	   op.add_argument("headless")
-	   op.add_argument("--window-size=1200,800")
-	   op.add_argument(f"user-agent={user_agent}")
+    usr_input = sys.argv[1] 
+    if usr_input.lower() == "show":
+       op = webdriver.ChromeOptions()
+       op.add_argument("--window-size=1200,800")
+       op.add_argument(f"user-agent={user_agent}") 
+    if usr_input.lower() == "run":
+       op = webdriver.ChromeOptions() 
+       op.add_argument("headless")
+       op.add_argument("--window-size=1200,800")
+       op.add_argument(f"user-agent={user_agent}")
 
-	driver = webdriver.Chrome(executable_path=r"/home/darksky/Downloads/chromedriver_linux64(1)/chromedriver", options=op) #path to your browser's webdriver 
-	link = random.choice(WhiteListLinks)
-	linkColors = colored(f"{link}", "cyan")
-	print(colored(f"Opening {linkColors}", "green"))
-	driver.get(link)
+    driver = webdriver.Chrome(executable_path=r"/home/darksky/Downloads/chromedriver_linux64(1)/chromedriver", options=op) #path to your browser's webdriver 
+    link = random.choice(WhiteListLinks) 
+    linkColors = colored(f"{link}", "cyan")
+    print(colored(f"Opening {linkColors}", "green"))
+    driver.get(link)
 
 count = 0
 
@@ -78,18 +78,18 @@ def send_count():
 start_time = time.time()
 
 try:
-	while True:
-		count += 1
-		webopen()
-		faster = int(random.randint(10,45))
-		slower = int(random.randint(30,100))
-		FS = faster, slower
-		sleeper = random.choice(FS)
-		sleeperColors = colored(f" {sleeper} ", "yellow")
-		displayWait = colored("\nWaiting for", "red")
-		displayRequest = colored("seconds before sending another request...\n", "red")
-		print(displayWait + sleeperColors + displayRequest)
-		time.sleep(sleeper)
+    while True:
+	count += 1
+	webopen()
+	faster = int(random.randint(10,45))
+	slower = int(random.randint(30,100))
+	FS = faster, slower
+	sleeper = random.choice(FS)
+	sleeperColors = colored(f" {sleeper} ", "yellow")
+	displayWait = colored("\nWaiting for", "red")
+	displayRequest = colored("seconds before sending another request...\n", "red")
+	print(displayWait + sleeperColors + displayRequest)
+	time.sleep(sleeper)
 except KeyboardInterrupt:
 	send_count()
 	time.sleep(3)
