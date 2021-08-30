@@ -28,7 +28,7 @@ This is a V2 of Traffic-Confuser. The program uses Selenium module to open websi
 
 `python3 Vexadious.py run` to run in headless mode (recommended), it will open websites on Google-Chrome in the background without actually opening the Browser.
 
-`python3 Vexadious.py show` if you want it to open Google-Chrome tabs and display it (not recommended, might be laggy after a number of tabs are opened)
+`python3 Vexadious.py show` if you want it to open Google-Chrome tabs and display it (not recommended, might be laggy after a number of tabs are opened).
 
 **Show mode:**
 
