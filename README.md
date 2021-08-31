@@ -16,6 +16,8 @@ Just run  `pip install -r requirements.txt`
 
 **First of all** install GoogleChrome webdriver: https://sites.google.com/a/chromium.org/chromedriver/downloads and paste-in it's path to the script.
 
+(And obviously have Google-Chrome itself installed)
+
 ![driver](https://user-images.githubusercontent.com/84932430/131385179-894426f7-8545-4d97-8290-3db2da688d63.png)
 
 `python3 Vexatious.py run` to run in headless mode (recommended), it will open websites on Google-Chrome in the background without actually opening the Browser.
