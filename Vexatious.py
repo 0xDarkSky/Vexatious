@@ -28,11 +28,7 @@ try:
 except ImportError:
 	os.system("clear")
 	print("Some of the dependencies might not be installed!")
-	print("\nInstalling 3 dependencies...\n")
-	os.system("pip install fake_useragent")
-	os.system("pip install selenium")
-	os.system("pip install termcolor")
-	os.system("clear")
+	print("\nRun: pip install -r requirements.txt\n")
 
 user_agent = "Mozilla/5.0 (iPad; CPU OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B141 Safari/8536.25"
 
