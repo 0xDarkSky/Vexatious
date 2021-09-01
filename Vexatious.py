@@ -33,7 +33,7 @@ except ImportError:
 
 user_agent = "Mozilla/5.0 (iPad; CPU OS 6_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B141 Safari/8536.25"
 
-WhiteListLinks = "https://instagram.com", "netflix.com", "https://twitter.com", "https://shopify.com", "https://pixabay.com/", "https://www.duckduckgo.com", "https://target.com/", "https://wired.com/", "https://lainchan.org", "https://libredd.it/", "https://harvard.edu/", "https://forbes.com/", "https://google.com", "https://soundcloud.com", "https://spotify.com", "https://time.com", "https://cloudflare.com", "https://wordpress.org", "https://invidious-us.kavin.rocks", "https://europa.eu"
+WhiteListLinks = "https://instagram.com", "https://netflix.com", "https://twitter.com", "https://shopify.com", "https://pixabay.com/", "https://www.duckduckgo.com", "https://target.com/", "https://wired.com/", "https://lainchan.org", "https://libredd.it/", "https://harvard.edu/", "https://forbes.com/", "https://google.com", "https://soundcloud.com", "https://spotify.com", "https://time.com", "https://cloudflare.com", "https://wordpress.org", "https://invidious-us.kavin.rocks", "https://europa.eu"
 
 os.system("clear")
 print(colored(f"{LOGO}", "blue"))
