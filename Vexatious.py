@@ -25,7 +25,6 @@ try:
     from selenium.webdriver.common.keys import Keys
     from fake_useragent import UserAgent
     from termcolor import colored
-    import argparse
 except ImportError:
     os.system("clear")
     print("Some of the dependencies might not be installed!")
