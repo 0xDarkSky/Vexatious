@@ -49,9 +49,9 @@ Ex. `python3 Vexatious.py [arg1] [arg2] [arg3]`
 
 Basically it just opens random websites from the list, the websites are opened on Google-Chrome, you can choose whether to do it in the background or to display the tabs (your Internet Provider still sees those websites if you run this in the background).
 
-The times between sending each request are also random, from 10 to 100 seconds, (you can customize it to your choice).
+The times between sending each request are also random, from 10 to 100 seconds, (you can use *Custom Settings* like *mentioned before*).
 
-I also added a fake user agent (an iPad), if you modify the script a little you can disable it.
+Also added some user agents.
 
 # What's the purpose?
 
