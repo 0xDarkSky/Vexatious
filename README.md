@@ -32,7 +32,7 @@ Ex. `python3 Vexatious.py [arg1] [arg2] [arg3]`
 
 *Arg2* = max timeouts, ex. `max120`. 
 
-*Arg3* = `show`/`run`.
+*Arg3* = `show` / `run`.
 
 `show` will display Google-Chrome and open tabs (not recommended, might get laggy after a number of tabs are opened) 
 
@@ -40,7 +40,7 @@ Ex. `python3 Vexatious.py [arg1] [arg2] [arg3]`
 
 **Note**: *your ISP sees the same no matter what mode you use.*
 
-***Important***: *if you use Custom Settings, all 3 arguments are necessary.* 
+***Important*** : *if you use Custom Settings, all 3 arguments are necessary.* 
 
 **Show mode:**
 
