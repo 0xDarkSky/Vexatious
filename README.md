@@ -8,7 +8,7 @@
 
 This is a V2 of Traffic-Confuser. The program uses Selenium module to open websites in Google Chrome browser.
 
-***Note***: *I highly recommend reading the whole documentation to understand how it works and how to use it properrly*
+***Note***: *I highly recommend reading the whole documentation to understand how it works, and how to use it properly.*
 
 # Dependencies to install:
 
