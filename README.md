@@ -20,9 +20,24 @@ Just run  `pip install -r requirements.txt`
 
 ![driver](https://user-images.githubusercontent.com/84932430/131385179-894426f7-8545-4d97-8290-3db2da688d63.png)
 
-`python3 Vexatious.py run` to run in headless mode (recommended), it will open websites on Google-Chrome in the background without actually opening the Browser.
+`python3 Vexatious.py` to run in headless mode (recommended), it will open websites on Google-Chrome in the background without actually opening the Browser with default settings.
 
-`python3 Vexatious.py show` if you want it to open Google-Chrome tabs and display it (not recommended, might be laggy after a number of tabs are opened).
+**You can run it with custom settings**:
+
+Ex. `python3 Vexatious.py [arg1] [arg2] [arg3]`
+
+**Arguments**: 
+*Arg1* = min timeouts, ex. `min50`. 
+
+*Arg2* = max timeouts, ex. `max120`. 
+
+*Arg3* = `show`/`run`.
+
+`show` will display Google-Chrome and open tabs (not recommended, might get laggy after a number of tabs are opened) 
+
+`run` will open the websites in Google-Chrome with *"headless"* mode, which means that the Browser will run in the background without displaying tabs (***recommended***) 
+
+**Note**: *your ISP sees the same no matter what mode you use.*
 
 **Show mode:**
 
