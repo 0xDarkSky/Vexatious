@@ -39,6 +39,8 @@ Ex. `python3 Vexatious.py [arg1] [arg2] [arg3]`
 
 **Note**: *your ISP sees the same no matter what mode you use.*
 
+***Important***: *if you use Custom Settings, all 3 arguments are necessary.* 
+
 **Show mode:**
 
 ![Screenshot from 2021-08-30 21-08-13](https://user-images.githubusercontent.com/84932430/131384667-db63a97c-8da8-46b0-bece-36bb5492495e.png)
