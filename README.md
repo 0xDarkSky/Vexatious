@@ -27,6 +27,7 @@ Just run  `pip install -r requirements.txt`
 Ex. `python3 Vexatious.py [arg1] [arg2] [arg3]`
 
 **Arguments**: 
+
 *Arg1* = min timeouts, ex. `min50`. 
 
 *Arg2* = max timeouts, ex. `max120`. 
