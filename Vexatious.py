@@ -48,7 +48,8 @@ def WebOpen():
         user_agent_MacOS = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15"
         user_agent_Huawei = "Mozilla/5.0 (Linux; Android 10; CDY-AN00 Build/HUAWEICDY-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36"
         user_agent_Samsung = "Mozilla/5.0 (Linux; Android 7.1.1; SAMSUNG SM-T350 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Safari/537.36"
-
+        #added some user_agents that you can use, choose which ever you want or add more
+        
         if usr_input_show_run.lower() == "show":
            op = webdriver.ChromeOptions()
            op.add_argument("--window-size=1200,800")
