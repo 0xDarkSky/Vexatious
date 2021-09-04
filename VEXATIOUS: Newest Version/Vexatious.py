@@ -4,6 +4,8 @@ import random
 from os import path 
 import sys
 
+#IMPORTANT! Please read the README on Github to understand how it works and how to use it correctly.
+
 LOGO = """
                   ░██████╗░██╗░░░░░░█████╗░██████╗░  
                   ██╔═══██╗██║░░░░░██╔══██╗██╔══██╗ 
@@ -126,4 +128,3 @@ except KeyboardInterrupt:
     time.sleep(3)
     os.system("clear")
     exit()
-
