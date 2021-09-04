@@ -12,9 +12,9 @@ This is a V2 of Traffic-Confuser. The program uses Selenium module to open websi
 
 # Dependencies to install:
 
-Navigate to any of the versions folder and then 
+Navigate to any of the versions folder and then just run  
 
-just run  `pip install -r requirements.txt`
+`pip install -r requirements.txt`
 
 # How to use?
 
