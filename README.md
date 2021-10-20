@@ -24,9 +24,9 @@ Navigate to any of the versions folder and then just run:
 
 ![driver](https://user-images.githubusercontent.com/84932430/131385179-894426f7-8545-4d97-8290-3db2da688d63.png)
 
-`python3 Vexatious.py` to run in headless mode (recommended), it will open websites on Google-Chrome in the background without actually opening the Browser with default settings.
+`python3 Vexatious.py min100 max200 run` to run in headless mode (recommended), it will open websites on Google-Chrome in the background without actually opening the Browser with default settings. The min request cooldown will be 100secs (`min100`) and the max is 200secs  (`max200`).
 
-**You can run it with custom settings**:
+**Use it with args**:
 
 Ex. `python3 Vexatious.py [arg1] [arg2] [arg3]`
 
