@@ -64,4 +64,4 @@ Also added some user agents.
 
 # The project is not updated anymore
 
-**Note that the project is not maintained anymore and might be outdated, you should try out Traffic-Confuser (the minimal version of this project that shouldn't get outdated for a while).**
+**Note that the project is not maintained anymore and might be outdated, you should try out Traffic-Confuser https://github.com/QL0R/Traffic-Confuser (the minimal version of this project that shouldn't get outdated for a while).**
